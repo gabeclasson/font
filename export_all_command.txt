@@ -1,0 +1,1 @@
+FOR %f IN (*.sfd) DO fontforge -lang=ff -c "Open('%~nf.sfd'); Generate('%~nf.ttf'); Generate('%~nf.otf'); Generate('%~nf.woff'); Generate('%~nf.woff2')"
